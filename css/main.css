@@ -200,5 +200,22 @@ footer p{
 }
 
 .blogpost-img-container{
-    
+    padding: 0 50px 40px ;
+}
+
+.blogpost-img-container img{
+    width: 100%;
+}
+
+.blogspost-main-container{
+    padding: 0 50px 40px;
+}
+
+.blogspost-main-container h3{
+    border-bottom: solid 1px #d9dde3;
+    padding-bottom: 20px;
+}
+
+.blogspost-main-container h1{
+    font-size: 35px;
 }
