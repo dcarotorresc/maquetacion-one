@@ -207,10 +207,6 @@ footer p{
     width: 100%;
 }
 
-.blogspost-main-container{
-    padding: 0 50px 40px;
-}
-
 .blogspost-main-container h3{
     border-bottom: solid 1px #d9dde3;
     padding-bottom: 20px;
@@ -220,6 +216,32 @@ footer p{
 .blogspost-main-container h1{
     font-size: 20px;
 }
+
+/* inicio de container2 */
+.blogpost-img-container2{
+    padding: 0 50px 40px ;
+    /* display: grid;
+    grid-template-columns: 3 repeat(1fr); */
+}
+
+.blogpost-img-container2 .grid-container{
+    display: inline-block;
+}
+
+.blogpost-img-container2 img{
+    width: 100%;
+}
+
+.blogspost-main-container2 h3{
+    border-bottom: solid 1px #d9dde3;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogspost-main-container2 h1{
+    font-size: 20px;
+}
+/* final de container2 */
 
 .contact-main-container {
     width: 100%;
